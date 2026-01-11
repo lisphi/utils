@@ -4,6 +4,10 @@
 export http_proxy="http://127.0.0.1:7897"
 export https_proxy="http://127.0.0.1:7897"
 export no_proxy="localhost,127.0.0.1,::1,.baidu.com,.feishu.cn,.larkenterprise.com"
+export HTTP_PROXY="http://127.0.0.1:7897"
+export HTTPS_PROXY="http://127.0.0.1:7897"
+export NO_PROXY="localhost,127.0.0.1,::1,.baidu.com,.feishu.cn,.larkenterprise.com"
+
 
 # Check proxy
 ip=$(curl -s https://api.ipify.org)
