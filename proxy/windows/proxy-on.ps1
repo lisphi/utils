@@ -9,7 +9,7 @@ chcp 65001 | Out-Null
 $ProxyAddress = "http://127.0.0.1:7897" 
 $env:HTTP_PROXY  = $ProxyAddress
 $env:HTTPS_PROXY = $ProxyAddress
-$env:NO_PROXY    = "localhost,127.0.0.1,::1,.ctripcorp.com,.ctrip.com,.trip.com,.c-ctrip.com,.tripcdn.com,.tripqate.com,.tripws.com,.baidu.com,.feishu.cn,.larkenterprise.com"
+$env:NO_PROXY    = "localhost,127.0.0.1,::1,.baidu.com,.feishu.cn,.larkenterprise.com"
 
 # Check proxy
 $ip = curl.exe https://api.ipify.org 2>$null
