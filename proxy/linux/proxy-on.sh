@@ -3,7 +3,7 @@
 # Set proxy
 export http_proxy="http://127.0.0.1:7897"
 export https_proxy="http://127.0.0.1:7897"
-export no_proxy="localhost,127.0.0.1,::1,.ctripcorp.com,.ctrip.com,.trip.com,.c-ctrip.com,.tripcdn.com,.tripqate.com,.tripws.com,.baidu.com,.feishu.cn,.larkenterprise.com"
+export no_proxy="localhost,127.0.0.1,::1,.baidu.com,.feishu.cn,.larkenterprise.com"
 
 # Check proxy
 ip=$(curl -s https://api.ipify.org)
